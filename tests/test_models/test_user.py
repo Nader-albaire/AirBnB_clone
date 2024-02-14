@@ -13,7 +13,6 @@ from datetime import datetime
 from time import sleep
 from models.user import User
 
-
 class TestUser_instantiation(unittest.TestCase):
     """Unittests for testing instantiation of the User class."""
 
