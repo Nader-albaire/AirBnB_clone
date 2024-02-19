@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AirBnB Clone</title>
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/7-places.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+    <link rel="stylesheet" href="styles/100-places.css">
+
+    <link rel="icon" href="./images/icon.png">
+    <!-- Add your custom CSS for accessibility improvements -->
+    <style>
+        /* Improve color contrast */
+        body {
+            color: #333; /* Dark text color */
+            background-color: #fff; /* Light background color */
+        }
+
+        /* Adjust the color of links to improve contrast */
+        a {
+            color: #007bff; /* Adjust link color to meet contrast ratio */
+        }
+
+        /* Increase contrast for headings */
+        h1, h2, h3, h4, h5, h6 {
+            color: #000; /* Black heading color */
+        }
+    </style>
+</head>
+<body>
+	<header></header>
+    <div class="container">
+        <section class="filters">
+            <button>Search</button>
+            <div class="locations">
+                <h3>States</h3>
+                <h4>California, Arizona...</h4>
+                <ul class="popover">
+                    <li><h2>California</h2>
+                        <ul>
+                            <li>Inland Empire</li>
+                            <li>Los Angeles</li>
+                        </ul>
+                    </li>
+                    <li><h2>Arizona</h2>
+                        <ul>
+                            <li>Gila</li>
+                            <li>Navajo</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Internet, Kitchen....</h4>
+                <ul class="popover">
+                    <li>Kitchen</li>
+                    <li>Table</li>
+                </ul>
+            </div>
+        </section> 
+
+        <section class="places">
+          <h1>Places</h1>
+
+          <article>
+            <h2>My home</h2>
+
+            <div class="price_by_night">
+              <p>$100</p>
+            </div>
+
+            <div class="information">
+                <div class="max_guest">
+                  <div class="icon-guest"></div>
+                  <p>3 Guests</p>
+                </div>
+
+                <div class="number_rooms">
+                  <div class="icon-rooms"></div>
+                  <p>2 Bedrooms</p>
+                </div>
+
+                <div class="number_bathrooms">
+                  <div class="icon-bath"></div>
+                  <p>3 Bathrooms</p>
+                </div>
+            </div>
+
+            <div class="user"><b>Owner:</b>   Isaac Ahmed</div>
+            <div class="description">Welcome to my cozy home! Perfect for a comfortable stay, this charming space is available for just $100 per night. Accommodating up to 3 guests, it features 2 bedrooms and 3 bathrooms, ensuring ample space and privacy for everyone. With its inviting atmosphere and convenient amenities, you'll feel right at home during your stay..
+            </div>
+
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li>
+                  <div class="icon-fri"></div>
+                  <p>Pet Friendly</p>
+                </li>
+                <li>
+                  <div class="icon-tv"></div>
+                  <p>TV</p>
+                </li>
+                <li>
+                  <div class="icon-wifi"></div>
+                  <p>Wifi</p>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="reviews">
+              <h2>3 Reviews</h2>
+              <ul>
+                <li>
+                  <h3>From John Snow the 10th January 2022”</h3>
+                  <p>tag for the text tag for the text tag for the text tag for the text tag for the text v v tag for the text tag for the text tag for the text tag for the texttag for the textvtag for the texttag for the texttag for the text tag for the text</p>
+                </li>
+                <li>
+                  <h3>From John Snow the 10th January 2022”</h3>
+                  <p>give us your idea.........</p>
+                </li>
+                <li>
+                  <h3>From John Snow the 10th January 2022”</h3>
+                  <p>give us your idea.........</p>
+                </li>
+              </ul>
+            </div>
+
+          </article>
+
+          <article>
+            <h2>Tiny house</h2>
+
+            <div class="price_by_night">
+              <p>$50</p>
+            </div>
+
+            <div class="information">
+                <div class="max_guest">
+                  <div class="icon-guest"></div>
+                  <p>2 Guests</p>
+                </div>
+
+                <div class="number_rooms">
+                  <div class="icon-rooms"></div>
+                  <p>1 Bedrooms</p>
+                </div>
+
+                <div class="number_bathrooms">
+                  <div class="icon-bath"></div>
+                  <p>1 Bathrooms</p>
+                </div>
+
+            </div>
+            <div class="user"><b>Owner:</b>  Nader Albaire</div>
+            <div class="description">Step into my inviting home! Ideal for a relaxing getaway, this delightful abode is yours for only $100 per night. Hosting a maximum of 3 guests, it boasts 2 bedrooms and 3 bathrooms, guaranteeing plenty of room and seclusion for all. Embrace the welcoming ambiance and practical amenities for a truly homely experience throughout your visit.
+            </div>
+
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li>
+                  <div class="icon-fri"></div>
+                  <p>Pet Friendly</p>
+                </li>
+                <li>
+                  <div class="icon-tv"></div>
+                  <p>TV</p>
+                </li>
+                <li>
+                  <div class="icon-wifi"></div>
+                  <p>Wifi</p>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="reviews">
+              <h2>Reviews</h2>
+              <ul>
+                <li>
+                  <h3>From Naderco the 29th January 2019”</h3>
+                  <p>tag for the text</p>
+                </li>
+                <li>
+                  <h3>From Naderco the 29th January 2019”</h3>
+                  <p>tag for the text</p>
+                </li>
+                <li>
+                  <h3>From Naderco the 29th January 2019”</h3>
+                  <p>tag for the text</p>
+                </li>
+              </ul>
+            </div>
+
+          </article>
+
+          <article>
+            <h2>A suite</h2>
+
+            <div class="price_by_night">
+              <p>$450</p>
+            </div>
+
+            <div class="information">
+                <div class="max_guest">
+                  <div class="icon-guest"></div>
+                  <p>8 Guests</p>
+                </div>
+
+                <div class="number_rooms">
+                  <div class="icon-rooms"></div>
+                  <p>5 Bedrooms</p>
+                </div>
+
+                <div class="number_bathrooms">
+                  <div class="icon-bath"></div>
+                  <p>6 Bathrooms</p>
+                </div>
+
+            </div>
+            <div class="user"><b>Owner:</b>      Nader Albaire</div>
+            <div class="description">"Experience the warmth of my welcoming home! Tailored for a cozy retreat, this lovely residence is priced at just $100 per night. Accommodating up to 3 guests, it offers 2 bedrooms and 3 bathrooms, ensuring ample space and comfort for all. Embrace the inviting atmosphere and convenient amenities for a truly homelike stay.
+            </div>
+
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li>
+                  <div class="icon-fri"></div>
+                  <p>Pet Friendly</p>
+                </li>
+                <li>
+                  <div class="icon-tv"></div>
+                  <p>TV</p>
+                </li>
+                <li>
+                  <div class="icon-wifi"></div>
+                  <p>Wifi</p>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="reviews">
+              <h2>Reviews</h2>
+              <ul>
+                <li>
+                  <h3>From Naderco the 25th January 2019”</h3>
+                  <p>tag for the text</p>
+                </li>
+                <li>
+                  <h3>From Naderco the 29th January 2019”</h3>
+                  <p>tag for the text</p>
+                </li>
+                <li>
+                  <h3>From Naderco the 29th January 2019”</h3>
+                  <p>tag for the text</p>
+                </li>
+              </ul>
+            </div>
+
+          </article>
+
+          
+          
+        </section>
+    </div>
+	<footer>Best School</footer>
+</body>
+</html>
