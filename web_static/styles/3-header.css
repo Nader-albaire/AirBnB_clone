@@ -1,19 +1,10 @@
 header {
     background-color: white;
-    color: white;
+    border-bottom: solid 1px #CCCCCC;
+    height: 70px; width: 100%;
     height: 70px;
     width: 100%;
-    border-bottom: 1px solid #CCCCCC;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 142px;
-    height: 100%;
-    background-image: url('../images/logo.png');
+    background-image: url(../images/logo.png);
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 20px;
+    background-position: 20px center;
 }
-
